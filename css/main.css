@@ -13,7 +13,6 @@ h2 {
 
 .portfolio-item {
 	position: relative;
-	
 }
 
 .front {
@@ -21,7 +20,6 @@ h2 {
 	width: 200px;
 	height: 200px;
 	-webkit-transition-duration: 1s;
-   
 }
 
 /*.front:hover {
@@ -31,9 +29,8 @@ h2 {
 .portfolio-item:hover .front{
 	opacity: 0;
 	-webkit-transform:rotateY(180deg);
-
-
 }
+
 .back {
 	position: absolute;
 	top: 0px;
@@ -49,11 +46,7 @@ h2 {
 /*.back:hover{
 	opacity: 1;*/
 
-
-
-
 .portfolio-item:hover .back{
 	opacity: 1;
 	-webkit-transform:rotateY(0deg);
-   
 }
